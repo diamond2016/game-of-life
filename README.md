@@ -1,6 +1,6 @@
 # Conway's Game of Life
-# Specifics and requirement: diamond2016
-# Elaborated by: GEMINI-CLI
+- Specifics and requirement: diamond2016
+- Elaborated by: GEMINI-CLI
 
 ## 1. Project Overview
 
@@ -36,7 +36,7 @@ main.py
 loop
     - computes new generation (Generation())
     - updates cell state (Cell())
-    - displays celle
+    - displays cells
     - display info on generation on topo screen (gen nr., lives, deads)
 
 - listen key ESC or mouse click to exit from LOOP
