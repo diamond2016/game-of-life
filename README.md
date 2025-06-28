@@ -1,6 +1,6 @@
 # Conway's Game of Life
 - Specifics and requirement: diamond2016
-- Elaborated by: GEMINI-CLI
+- Elaborated by: gemini-cli
 
 ## 1. Project Overview
 
@@ -14,8 +14,6 @@ This project aims to create a Python application to simulate and visualize Conwa
 
 
 ## 3. Project Structure
-
-(This section will be updated as the project develops)
 
 - `main.py`: The main entry point of the application.
 - `gen.py `: Contains the core logic for the Game of Life simulation (e.g., calculating the next generation).
@@ -69,14 +67,8 @@ contains the time parameters (default 1 second), maximum number of generations (
 ### Setup
 
 1.  Clone the repository.
-2.  Create a virtual environment: `python -m venv venv`
-3.  Activate the virtual environment: `source venv/bin/activate`
-4.  Install dependencies: `pip install -r requirements.txt`
 
 ### Running the Application
 
-```bash
-python main.py initial_pattern.py (if not used will use: pattern.txt)
-```
-
-```
+bash
+python main.py initial_pattern.txt (if file not exists will use: pattern.txt)
