@@ -1,6 +1,6 @@
 # Conway's Game of Life
-# Specifics and requirement: diamond2016
-# Elaborated by: GEMINI-CLI
+- Specifics and requirement: diamond2016
+- Elaborated by: GEMINI-CLI
 
 ## 1. Project Overview
 
