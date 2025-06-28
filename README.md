@@ -1,6 +1,6 @@
 # Conway's Game of Life
 - Specifics and requirement: diamond2016
-- Elaborated by: GEMINI-CLI
+- Elaborated by: gemini-cli
 
 ## 1. Project Overview
 
@@ -69,14 +69,11 @@ contains the time parameters (default 1 second), maximum number of generations (
 ### Setup
 
 1.  Clone the repository.
-2.  Create a virtual environment: `python -m venv venv`
-3.  Activate the virtual environment: `source venv/bin/activate`
-4.  Install dependencies: `pip install -r requirements.txt`
 
 ### Running the Application
 
 ```bash
-python main.py initial_pattern.py (if not used will use: pattern.txt)
+python main.py initial_pattern.txt (if file not exists will use: pattern.txt)
 ```
 
 ```
