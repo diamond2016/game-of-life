@@ -1,6 +1,6 @@
 # Conway's Game of Life
 - Specifics and requirement: diamond2016
-- Elaborated by: gemini-cli
+- Production by: gemini-cli
 
 ## 1. Project Overview
 
@@ -42,7 +42,7 @@ loop
 cell.py
 class cell (Turtle)
 contains the attribute state (1/0), and also row and col which are the row and column number of the cell in grid (the list of the main)
-it is an object with shape "circle", color "black", default size 20 pixels
+it is an object with shape "square", color "black", default size 20 pixels
 - defines a function display(width, Height) that receives the dimensions of the screen and calculates the coordinates on the screen to display the cell through its internal attributes
 self.row and self.col
 - the function display() uses self.hideturtle() if self.state = 0 or self.showturtle if self.state = 1

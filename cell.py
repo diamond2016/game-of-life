@@ -20,7 +20,7 @@ class Cell(Turtle):
         self.col = col
         self.state = state
         
-        self.shape("circle")
+        self.shape("square")
         self.color(CELL_COLOR)
         self.penup()  # Don't draw lines when moving
         self.speed(0)  # Fastest drawing speed
