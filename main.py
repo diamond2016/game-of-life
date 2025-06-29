@@ -1,3 +1,5 @@
+# diamond2016 game-of-life
+
 import turtle
 import sys
 from cell import Cell
